@@ -1,0 +1,59 @@
+@import url(http://fonts.googleapis.com/css?family=Cedarville+Cursive);
+/*font-family: 'Cedarville Cursive', cursive;*/
+
+@import url(http://fonts.googleapis.com/css?family=Averia+Serif+Libre);
+/*font-family: 'Averia Serif Libre', cursive;*/
+
+@import url(http://fonts.googleapis.com/css?family=Monofett);
+/*font-family: 'Monofett', cursive;*/
+
+/*table tr td {*/
+  /*background-color: black;*/
+/*}*/
+
+tr td
+{
+   background-color: red;
+}
+
+tr:nth-child(even) td:nth-child(odd) {
+   background-color: black;
+
+}
+
+tr:nth-child(odd) td:nth-child(even){
+   background-color: black;
+}
+
+tr:nth-child(1) td:nth-child(even){
+   background-image: url("/images/black_checker.gif");
+   background-size: cover;
+ }
+
+tr:nth-child(2) td:nth-of-type(odd){
+   background-image: url("/images/black_checker.gif");
+   background-size: cover;
+ }
+
+tr:nth-child(3) td:nth-child(even){
+   background-image: url("/images/black_checker.gif");
+   background-size: cover;
+ }
+
+/*REDS*/
+
+tr:nth-child(8) td:nth-child(odd) {
+   background-image: url("/images/red_checker.gif");
+   background-size: cover;
+ }
+
+tr:nth-child(7) td:nth-child(even) {
+   background-image: url("/images/red_checker.gif");
+   background-size: cover;
+ }
+
+tr:nth-child(6) td:nth-child(odd) {
+   background-image: url("/images/red_checker.gif");
+   background-size: cover;
+ }
+
