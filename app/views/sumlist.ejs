@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sumlist</title>
+    <link rel="stylesheet" href="/css/style2.css">
+  </head>
+  <body>
+    
+   <% var list = string.split(',') %>  
+   <% list = list.map(function(x){return x*1;}) %>
+   <table>
+     <% var sum = 0 %> 
+     <%  for(var i = 0; i < list.length; i++) { %>
+           <% sum += list[i] %>
+           <tr>
+               <% var currentColor =(list[i]%2) === 0 ? evenC: oddC %>
+               <td > <span style="color: <%=currentColor %>;">  <%=list [i] %> </span> </td>
+          </tr>
+     <% } %>
+     <td><%= sum %> </td>
+   </table>
+  </body>
+</html>
