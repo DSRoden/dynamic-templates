@@ -11,9 +11,14 @@
   /*background-color: black;*/
 /*}*/
 
+
+table {
+  background-color: brown;
+}
 tr td
 {
    background-color: red;
+   border: 1px solid black;
 }
 
 tr:nth-child(even) td:nth-child(odd) {
@@ -43,17 +48,17 @@ tr:nth-child(3) td:nth-child(even){
 /*REDS*/
 
 tr:nth-child(8) td:nth-child(odd) {
-   background-image: url("/images/red_checker.gif");
+   background-image: url("/images/red_checker3.gif");
    background-size: cover;
  }
 
 tr:nth-child(7) td:nth-child(even) {
-   background-image: url("/images/red_checker.gif");
+   background-image: url("/images/red_checker3.gif");
    background-size: cover;
  }
 
 tr:nth-child(6) td:nth-child(odd) {
-   background-image: url("/images/red_checker.gif");
+   background-image: url("/images/red_checker3.gif");
    background-size: cover;
  }
 
