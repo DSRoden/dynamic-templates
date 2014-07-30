@@ -43,6 +43,12 @@ app.get('/sumlist/:string', function(req,res){
   res.render('sumlist', req.params);
 });
 
+app.get('/rolldice/:x', function(req,res){
+  
+  req.params.x
+  res.render('rolldice', req.params);
+});
+
 app.listen(process.env.PORT, function(){
   console.log('App is running on Port', process.env.PORT);
 });

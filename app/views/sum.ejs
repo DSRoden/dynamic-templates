@@ -8,7 +8,7 @@
   <body>
   <h1>Sum</h1>
   <% var sum = x + y + z + a %> 
-  <%var sumColor = (sum%2) === 0 ? 'red': 'blue' %>
+  <%var evenC = (sum%2) === 0 ? 'red': 'blue' %>
   <h2 style="font-size: <%=fontsize %>; border: <%=borderwidth%> solid <%=color%>;">  <%= x %> + <%= y %> +  <%= z %> + <% a %> = <span style="color: <%=sumColor%>;"> <%= sum %> </span> </h2>
   </body>
 </html>

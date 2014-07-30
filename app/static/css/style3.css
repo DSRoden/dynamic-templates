@@ -1,0 +1,36 @@
+div {
+  float: left;
+  height: 50px;
+  width: 50px;
+}
+
+.roll1 {
+      background-image: url('/images/di1.png');
+      background-size: cover;
+}
+
+.roll2 {
+      background-image: url('/images/di2.png');
+      background-size: cover;
+}
+
+.roll3 {
+      background-image: url('/images/di3.png');
+      background-size: cover;
+}
+
+.roll4 {
+      background-image: url('/images/di4.png');
+      background-size: cover;
+}
+
+.roll5 {
+      background-image: url('/images/di5.png');
+      background-size: cover;
+}
+
+.roll6 {
+      background-image: url('/images/di6.png');
+      background-size: cover;
+}
+
